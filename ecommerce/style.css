@@ -1,0 +1,184 @@
+*{
+    font-family:inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 20px black;
+    padding: 8px 8px;
+    background: black;
+}
+.navbar .navbar-brand{
+    font-weight: 800;
+    color: green;
+}
+#navbarSupportedContent{
+    border-bottom: 2px solid transparent;
+    color: white;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid green;
+}
+#navbarSupportedContent button{
+    color:black;
+    background-color: green;
+    border-radius: 25px;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)),url(wallpaperflare.com_wallpaper\ \(1\).jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+}
+#home h1{
+    text-align:center;
+    font-size: 60px;
+    color: white;
+    font-family: initial;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px white,
+                 0px 2px 0px white,
+                 0px 3px 0px white,
+                 0px 4px 0px white;
+}
+#home .aa{
+    margin-right: 24%;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+}
+#home p{
+    color: orange;
+    font-size:25px ;
+}
+#home .input-group{
+    width: 40%;
+    height: 45px;
+}
+#home .signin{
+    color: white;
+    background-color: green;
+}
+.signin a:hover{
+    color: black;
+}
+#about{
+    background:chartreuse;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 45px;
+
+}
+#about p{
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+}
+.ii{
+    margin-top: 13%;
+    margin-left: 13%;
+}
+#products{
+    background: pink;
+    height: 500%;
+    width: 100%;
+}
+#products  h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#products img{
+    width: 200px;
+    height: 200px;
+}
+#products .card{
+    width: 250px;
+    height: 300px;
+    background:pink;
+    border: none;
+    box-shadow: 15px 20px 20px grey;
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+}
+#products .signins{
+    color: white ;
+    background:black;
+}
+#contact img{
+    height: 100%;
+
+}
+#contact .box{
+    width: 80%;
+    margin-top: 10px;
+}
+#contact form{
+    display :flex;
+    flex-direction: column;
+}
+#contact input{
+    margin: 10px 0px;
+}
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact .signi{
+    background: black;
+    color: white;
+}
+.popo{
+text-align: center;
+}
+footer{
+    border-bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: black;
+    margin-bottom:0;
+    text-align: center;
+    color: white;
+}
+#btna{
+    width: 100%;
+    height: 100vh;
+    background: aqua;
+}
+#btna .rty{
+    display: flex;
+    flex-direction: column;
+
+}
+#btna .sign{
+    background: green;
+    color: black;
+    font-weight: 600;
+}
+#btna input{
+    margin: 10px 0px;
+}
+#btna form{
+    display :flex;
+    flex-direction:column;
+}
+#btna .ghj{
+    color: black;
+    font-weight: 600;
+}
