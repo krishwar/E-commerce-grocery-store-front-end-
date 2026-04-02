@@ -20,33 +20,30 @@ It is built as a frontend prototype, ideal for integration with backend systems.
 🎨 Clean and modern design
 📱 Fully responsive (mobile + desktop)
 ⚡ Fast and lightweight performance
-🛠️ Tech Stack
-Category	Technology
-Frontend	HTML, CSS, JavaScript
-Styling	CSS
-Design	Responsive UI/UX
-📁 Project Structure
-E-commerce-grocery-store-front-end/
-│
-├── index.html        # Main homepage
-├── css/              # Stylesheets
-├── js/               # JavaScript files
-├── assets/           # Images & icons
-├── pages/            # Additional pages (if any)
+
 ⚙️ Installation & Setup
+
 1️⃣ Clone the repository
+
 git clone https://github.com/krishwar/E-commerce-grocery-store-front-end-.git
 cd E-commerce-grocery-store-front-end-
+
+
 2️⃣ Run the project
 
 Open directly in browser:
 
 index.html
+
+
 🌍 Use Cases
 
 This project can be used for:
 
 Grocery store businesses
+
 Supermarket websites
+
 UI prototypes for e-commerce apps
+
 Frontend integration with backend systems
